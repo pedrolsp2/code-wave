@@ -1,0 +1,48 @@
+
+article.card {
+    border: 1px solid #313131;
+    width: 20em;
+    height: 25em;
+    background-color: #151517;
+    border-radius: .5em;
+    padding: .8em;
+    position: relative;
+  }
+  
+  .card-img{
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(168.53deg, #1F1F1F 41.45%, rgba(89, 24, 154, 0.253) 179.79%);
+    border-radius: .5em;
+    display: grid;
+    place-content: center;
+  }
+
+  .card-img img{
+    object-fit: cover;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .card-info{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;  
+    height: 50%;
+  }
+  
+  .card-price{
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .card-price span small{
+   text-decoration: line-through;
+  }
+  
+  .card-price span h2{
+    color: #5A189A;
+  } 
+   
+  

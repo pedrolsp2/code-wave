@@ -1,0 +1,166 @@
+section.index-banner{
+    height: calc(100vh - 6.25em);
+    width: 100%;
+    background: url('../../Assets/Image/capa-main.jpg')fixed no-repeat;
+    background-size: cover;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+#color-text{
+    color: #9D4EDD;
+}
+
+section.index-banner h1{
+    font-size: 3.6875em;
+    max-width: 70%;
+    width: 100%;
+}
+
+section.index-banner p{
+    font-size: 1em;
+    max-width: 70%;
+    width: 100%;
+}
+
+section.index-banner span{
+    margin-top: -2em;
+}
+
+main{
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main h1{
+  font-size: 2.5em;
+  text-align: center;
+  margin: 2em 0;
+}
+
+section.about-us{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  padding: 10em 0em;
+}
+
+section.about-us article{
+  margin: 0 auto;
+  width: 50%;  
+  display: grid;
+  place-items: center;
+} 
+
+section.about-us  img{
+  object-fit: contain;
+  width: 80%;
+  height: 80%;
+}
+
+.new h2{ 
+  display: inline-block;
+  border-bottom: 3px solid #5A189A;
+  margin: 0 0 1em 10px;
+}
+
+.new p{
+  font-size: 18px !important;
+}
+
+small{
+  color: #B7B7B7;
+  font-size: 14px;
+}
+
+#see, #see2{
+  position: relative;
+}
+
+#see{
+  margin: 5em 0em;
+}
+
+#see::after,#see2::after{
+  position: absolute;
+  right: 0;
+  background-color: #3C096C;
+  content: '➝'; 
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#see2{
+  display: none;
+  visibility: hidden;
+}
+
+section.card-section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+@media screen and (max-width: 600px) {
+    
+section.index-banner {
+    height: calc(100vh - 6.25em);
+    padding: 2em;
+  }
+
+  section.index-banner h1 {
+    font-size: 2.5em;
+    text-align: center !important;
+    
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  section.index-banner p{
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    margin-top: 1em;
+  }
+
+}
+ 
+
+@media screen and (max-width: 700px) {
+  section.about-us{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  section.about-us article{
+    width: 100%;
+    padding: 1em;
+  }
+
+  #see2{
+    display: grid;
+    visibility: visible;
+  }
+
+  #see{
+    display: none;
+    visibility: hidden;
+  } 
+  .new h2{ 
+    display: inline-block;
+    border-bottom: 3px solid #5A189A;
+    margin: 0  ;
+    margin-bottom: 15px;
+  }
+}
