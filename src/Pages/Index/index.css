@@ -1,5 +1,5 @@
 section.index-banner{
-    height: calc(100vh - 6.25em);
+    height: 100vh;
     width: 100%;
     background: url('../../Assets/Image/capa-main.jpg')fixed no-repeat;
     background-size: cover;
@@ -163,4 +163,4 @@ section.index-banner {
     margin: 0  ;
     margin-bottom: 15px;
   }
-}
+} 

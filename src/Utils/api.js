@@ -6,7 +6,7 @@ export const data = [
       newPrice: 150.0,
       url: "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png",
       author: "John Doe",
-      cover: "https://www.example.com/react-native-cover",
+      cover: "https://cdn.kinandcarta.com/-/media-assets/images/kincarta/insights/2022/02/react-native/react_hero.png?as=0&iar=0&w=1200&rev=61e1dad3af7e465e9544cf8490237772&hash=0AD31383BCBA1DA1C88546327312BA33",
       description: "Um curso abrangente sobre desenvolvimento de aplicativos móveis usando React Native.",
       about: "Neste curso, você aprenderá os conceitos fundamentais do React Native e como construir aplicativos móveis multiplataforma. O curso abrange desde os conceitos básicos até tópicos avançados, permitindo que você desenvolva aplicativos móveis de alta qualidade.",
       assessment: 4.5,
